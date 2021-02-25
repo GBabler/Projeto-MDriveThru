@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MDriveThru</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="cabecalho">
+        </header>
+        
+        <div class="div_login">
+            <div class="logo">
+                <img src="./img/logomarcaindex.png" alt="logo">
+            </div>
+            <div class="form_Login">
+                <form class="form">
+    
+                    <label>Acesse</label>
+
+                    <input class="inp_name" type="text" name="login" placeholder="E-mail" autocomplete="off">
+                    <input class="inp_senha" type="password" name="senha" placeholder="Senha" autocomplete="off">
+
+                    <div class="buttons">
+                    <button class="buttons_form entrarButton" type="button">Entrar</button>
+                    <button class="buttons_form registerButton" type="button">Registrar</button>
+                    </div>
+                </form>
+                
+            </div>
+        </div>
+        
+        <footer class="footer">  
+            <p>© MDrive Thru</p> 
+            <p>UNIP</p>
+        </footer>
+    </div>
+
+    <script>
+        const registerButton = document.querySelector(".registerButton")
+        const entrarButton = document.querySelector(".entrarButton")
+        function onRegister(){
+
+            window.location.href="./registro.html"
+        }
+
+        function onSubmit(){
+ 
+            window.location.href="./loja.html"
+        }
+
+        registerButton.addEventListener("click",onRegister)
+        entrarButton.addEventListener("click",onSubmit)
+    </script>
+    
+</body>
+</html>

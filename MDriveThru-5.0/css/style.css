@@ -1,0 +1,93 @@
+/* INDEX CSS */
+*,body {
+
+	padding:0;
+	margin:0;
+
+}
+html,body{
+
+    min-height: 100%;
+    height: 100%;
+
+}
+/*criacao de linhas*/
+.container{
+
+    height: 100%;
+    display: grid;
+    grid-template-rows: 0.5fr 2fr 0.5fr;
+}
+
+.cabecalho{
+    background-color:white; 
+}
+.div_login{
+
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: rgb(2, 192, 250);
+    text-align: center;
+    font-size: 15px;
+    padding: 12;
+}
+
+.logo{
+
+    max-height: 300px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.logo>img{
+    max-width: 200px;
+    width: 100%;
+    height: auto;
+
+}
+
+.form{
+
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    justify-content: center;
+    text-align: center;
+}
+
+input{
+
+    border-radius: 5px;
+    padding: 0 5px;
+    height: 30px;
+    margin-top: 10px;
+
+}
+
+.buttons{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 50px;
+    align-items: center;
+}
+
+.buttons>button{
+
+    height: 30px;
+    padding: 0 5px;
+
+    border-radius: 5px;
+
+
+}

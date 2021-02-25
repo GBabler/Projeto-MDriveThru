@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MDT - Registro</title>
+    <link rel="stylesheet" type="text/css" href="css\registro.css">
+</head>
+<body> 
+    <div class="grid-container">
+            <div class="divHeader">
+                <header class="header">
+                    <a href=".\index.html"><img src=".\img\logomarcaindex.png" alt="logoindex"></a>
+                </header>
+            </div>
+            <div class="divform">
+                    <form class="form">
+                        <div class="input">
+                            <div class="nome-sobrenome">
+                                <label class="label">Nome</label>
+                                <input type="text" placeholder="Ex: Gabriel" autocomplete="off"><br>
+                                <Label class="label">Sobrenome</Label>
+                                <input type="text" placeholder="Ex: Babler" autocomplete="off">
+                            </div>
+                            <div class="data">
+                                <label class="label">Nascimento</label>
+                                <input type="date" name="data" autocomplete="off" maxlength="8">
+                            </div>
+                            <div class="cpf">
+                                <label class="label">CPF</label>
+                                <input type="text" name="CPF" placeholder="Ex: 123456789-12" autocomplete="off" maxlength="11">
+                            </div>
+                            <div class="numero">
+                                <label class="label">Telefone</label>
+                                <input type="text" name="celular" placeholder="Ex : (19)123456789" maxlength="11">
+                            </div>
+                            <div class="email">
+                                <label class="label">E-mail</label>
+                                <input type="email" name="email" id="email" placeholder="Ex : mdrive@thru.com" autocomplete="off"> 
+                            </div>
+                            <div class="senha">
+                                <label class="label">Senha</label>
+                                <input type="password" name="senha" placeholder="*******" autocomplete="off"><br>
+                                <label class="label">Confirme</label>
+                                <input type="password" name="senha" placeholder="*******" autocomplete="off">
+                            </div>
+                            <div class="buttons">
+                                <button class="buttonsForm">Enviar</button>
+                                <button class="buttonsForm voltarButton" type="button">Voltar</button>
+                            </div>
+                        </div>
+                    </form>
+            </div>   
+        <div class="divFooter">
+           <footer class="footer">  
+                 <p>© MDrive Thru</p> 
+                 <p>UNIP</p>
+            </footer>
+        </div>
+    </div>  
+    <script>
+        const voltarButton = document.querySelector(".voltarButton")
+        function onSubmit(){
+
+            window.location.href="./index.html"
+        }        
+        voltarButton.addEventListener("click",onSubmit)
+    </script>
+
+</body>
+</html>
