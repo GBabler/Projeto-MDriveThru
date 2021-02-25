@@ -6,5 +6,5 @@ Ele consta em um aplicativo que facilita a compra de produtos, ao em vez do clie
 
 O Cliente-consumidor recebe uma iformação do tempo estimado para a separação e do valor total dos produtos, assim tambem o horario estimado que ele pode ir até o local retirar a sua compra.
 
-Por enquanto não possui nenhuma função para os objetos, apenas o visual.  teste
+Por enquanto não possui nenhuma função para os objetos, apenas o visual.
  
