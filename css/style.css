@@ -20,7 +20,7 @@ html,body{
 }
 
 .cabecalho{
-    background-color:white; 
+    background-color:rgb(255, 255, 255); 
 }
 .div_login{
 
@@ -28,6 +28,12 @@ html,body{
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.div_acesse{
+    font-family: Helvetica;
+    font-size: 40px;
+
 }
 
 .footer{
