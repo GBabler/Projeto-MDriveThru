@@ -17,38 +17,41 @@
                     <form class="form">
                         <div class="input">
                             <div class="nome-sobrenome">
-                                <label class="label">nome</label>
+                                <label class="label">Nome</label><br>
                                 <input type="text" placeholder="Ex: Gabriel" autocomplete="off"><br>
-                                <Label class="label">Sobrenome</Label>
+                                <Label class="label">Sobrenome</Label><br>
                                 <input type="text" placeholder="Ex: Babler" autocomplete="off">
                             </div>
                             <div class="data">
-                                <label class="label">Nascimento</label>
+                                <label class="label">Nascimento</label><br>
                                 <input type="date" name="data" autocomplete="off" maxlength="8">
                             </div>
                             <div class="cpf">
-                                <label class="label">CPF</label>
+                                <label class="label">CPF</label><br>
                                 <input type="text" name="CPF" placeholder="Ex: 123456789-12" autocomplete="off" maxlength="11">
                             </div>
                             <div class="numero">
-                                <label class="label">Telefone</label>
+                                <label class="label">Telefone</label><br>
                                 <input type="text" name="celular" placeholder="Ex : (19)123456789" maxlength="11">
                             </div>
                             <div class="email">
-                                <label class="label">E-mail</label>
-                                <input type="email" name="email" id="email" placeholder="Ex : mdrive@thru.com" autocomplete="off"> 
+                                <label class="label">E-mail</label><br>
+                                <input type="email" name="email" id="email" placeholder="Ex : mdrive@thru.com" autocomplete="off">
                             </div>
                             <div class="senha">
-                                <label class="label">Senha</label>
+                                <label class="label">Senha</label><br>
                                 <input type="password" name="senha" placeholder="*******" autocomplete="off"><br>
-                                <label class="label">Confirme</label>
-                                <input type="password" name="senha" placeholder="*******" autocomplete="off">
+                                <label class="label">Confirme</label><br>
+                                <input  type="password" name="senha" placeholder="*******" autocomplete="off">
                             </div>
                             <div class="buttons">
                                 <button class="buttonsForm">Enviar</button>
                                 <button class="buttonsForm voltarButton" type="button">Voltar</button>
                             </div>
                         </div>
+                                <div class=login-inicio>
+                                    <a href="index.html"><b><i>ja possui uma conta ?</i></b></a>
+                                </div>
                     </form>
             </div>   
         <div class="divFooter">
@@ -58,6 +61,7 @@
             </footer>
         </div>
     </div>  
+
     <script>
         const voltarButton = document.querySelector(".voltarButton")
         function onSubmit(){
