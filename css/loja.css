@@ -25,8 +25,7 @@ html,body{
   .header{
     
     padding: 5px;
-    background-color: rgba(142, 185, 192, 0.959);
-    box-shadow: 1px 10px 70px 5px rgb(88, 88, 88);
+    background-color: rgba(255, 94, 0, 0.959);
   }
 
   .divHeader{
@@ -47,11 +46,12 @@ html,body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background: rgb(2, 192, 250);
+    background-color: rgba(255, 94, 0, 0.959);
     text-align: center;
     font-size: 15px;
     size: 10px;
     padding: 15px;
+    color: white;
 }
 
 .produtos{
