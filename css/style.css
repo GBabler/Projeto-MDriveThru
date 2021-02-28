@@ -45,6 +45,8 @@ html,body{
     font-size: 25px;
     padding: 12px;
     color: white;
+    width: auto;
+    
 }
 
 .logo{
