@@ -47,6 +47,8 @@ html,body{
     color: white;
     width: auto;
     height: auto;
+    border-top: 1px solid black;
+
 }
 
 .logo{
