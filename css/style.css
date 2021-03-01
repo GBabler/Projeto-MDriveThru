@@ -17,17 +17,27 @@ html,body{
     height: 100%;
     display: grid;
     grid-template-rows: 0.5fr 2fr 0.5fr;
+    background: #C02425;
+    background: -webkit-linear-gradient(to right, #F0CB35, #C02425);
+    background: linear-gradient(to right, #F0CB35, #C02425);
 }
 
 .cabecalho{
-    background-color:rgb(255, 255, 255); 
+    background: #C02425;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #f0cb355d, #C02425);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F0CB35, #C02425); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 .div_login{
 
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
     justify-content: center;
+    border-top: 1px solid rgb(87, 87, 87);
+    border-bottom: 1px solid rgb(87, 87, 87);
+    border-radius: 15px;
+    
 }
 
 .div_acesse{
@@ -40,14 +50,16 @@ html,body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: rgba(255, 94, 0, 0.959);
+    background: #C02425;
+    background: -webkit-linear-gradient(to right, #F0CB35, #C02425);
+    background: linear-gradient(to right, #F0CB35, #C02425);
     text-align: center;
     font-size: 25px;
     padding: 12px;
     color: white;
     width: auto;
     height: auto;
-    border-top: 1px solid black;
+    border-top: px solid rgb(255, 255, 255);
 
 }
 

@@ -23,8 +23,9 @@ html,body{
 .header{
 
   padding: 5px;
-  background-color: rgba(255, 94, 0, 0.959);
-
+  background: #C02425;
+  background: -webkit-linear-gradient(to right, #F0CB35, #C02425);
+  background: linear-gradient(to right, #F0CB35, #C02425);
   max-height: 100%;
   display: flex;
   justify-content: center;
@@ -35,6 +36,7 @@ html,body{
     max-width: 100px;
     width: 100%;
     height: auto;
+    
   }
 
     /*---------------------------*/
@@ -43,13 +45,16 @@ html,body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: rgba(255, 94, 0, 0.959);
+    background: #C02425;
+    background: -webkit-linear-gradient(to right, #F0CB35, #C02425);
+    background: linear-gradient(to right, #F0CB35, #C02425);
     text-align: center;
     font-size: 15px;
     padding: 12px;
     height: 70px;
     width: auto;
     color: white;
+    
     
 }
 
@@ -61,12 +66,18 @@ html,body{
   padding: 20px;
   width: auto;
   height: auto;
+  border-radius: 25px;
+  background-color: rgb(255, 255, 255);
 }
 .divform{
 
   background-color: rgb(255, 255, 255);
   width: auto;
   height: auto;
+  background: #C02425;
+  background: -webkit-linear-gradient(to right, #F0CB35, #C02425);
+  background: linear-gradient(to right, #F0CB35, #C02425);
+  
 }
 .label{
 
