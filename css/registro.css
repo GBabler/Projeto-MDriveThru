@@ -68,10 +68,13 @@ html,body{
   width: auto;
   height: auto;
   border-radius: 25px;
-  background-color: rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0.63);
+
 }
+
 .divform{
 
+  display: grid;
   background-color: rgb(255, 255, 255);
   width: auto;
   height: auto;
@@ -91,9 +94,10 @@ html,body{
 
 /*********INPUTS****************/
 .input{
-  text-align: right;
+
   justify-content: center;
   text-align: center;
+
   }
 
 
@@ -101,7 +105,7 @@ input{
     border-radius: 5px;
     padding: 0 5px;
     height: 30px;
-    margin-top: 10px;
+    margin-top: 15px;
     width: 170px;
 }
 
