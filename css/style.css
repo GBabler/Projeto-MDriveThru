@@ -23,9 +23,10 @@ html,body{
 }
 
 .cabecalho{
+
     background: #C02425;
     background: -webkit-linear-gradient(to right, #f0cb355d, #C02425);
-    background: linear-gradient(to right, #F0CB35, #C02425); 
+    background: linear-gradient(to right, #F0CB35, #C02425);
 
 }
 .div_login{
@@ -50,11 +51,12 @@ html,body{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
     background: #C02425;
     background: -webkit-linear-gradient(to right, #F0CB35, #C02425);
     background: linear-gradient(to right, #F0CB35, #C02425);
     text-align: center;
-    font-size: 25px;
+    font-size: 15px;
     padding: 12px;
     color: white;
     width: auto;
