@@ -23,9 +23,9 @@ html,body{
 }
 
 .cabecalho{
-    background: #C02425;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #f0cb355d, #C02425);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #F0CB35, #C02425); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #C02425;
+    background: -webkit-linear-gradient(to right, #f0cb355d, #C02425);
+    background: linear-gradient(to right, #F0CB35, #C02425); 
 
 }
 .div_login{
@@ -93,6 +93,7 @@ input{
     padding: 0 5px;
     height: 30px;
     margin-top: 10px;
+    
 
 }
 
