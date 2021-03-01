@@ -93,7 +93,6 @@ input{
     padding: 0 5px;
     height: 30px;
     margin-top: 10px;
-    
 
 }
 
@@ -104,14 +103,13 @@ input{
     justify-content: space-evenly;
     height: 50px;
     align-items: center;
+
 }
 
 .buttons>button{
 
     height: 30px;
     padding: 0 5px;
-
     border-radius: 5px;
-
 
 }
